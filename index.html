@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Fábio Garboggini">
+    <title>Simulador de Caixa Eletrônico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Simulador de Caixa Eletrônico</h1>
+    <select id="operacao">
+        <option value="saldo">Consultar Saldo</option>
+        <option value="saque">Sacar</option>
+        <option value="deposito">Depositar</option>
+    </select>
+    <input type="number" id="valor" placeholder="Digite o valor" />
+    <button id="realizar">Realizar</button>
+    <p id="resultado"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
